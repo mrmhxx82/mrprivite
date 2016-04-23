@@ -231,6 +231,8 @@ function create_config( )
 	"supergroup",
 	"whitelist",
 	"msg_checks"
+	"filterword";
+	"poker";
     },
     sudo_users = {190840223},--Sudo users
     moderation = {data = 'data/moderation.json'},
