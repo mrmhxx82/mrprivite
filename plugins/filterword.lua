@@ -1,29 +1,3 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @mrmhxx82
-
-2
-13
-
-    48
-
-SbssTeam/Sbss
-Code
-Issues 0
-Pull requests 1
-Wiki
-Pulse
-Graphs
-Sbss/plugins/filterword.lua
-ca47b6e on Mar 20
-@MRAHS MRAHS Added files via upload
-148 lines (142 sloc) 4.56 KB
 local function save_filter(msg, name, value)
   local hash = nil
   if msg.to.type == 'chat' then
